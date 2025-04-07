@@ -2,7 +2,7 @@ import logging
 import traceback
 from flask import Flask
 import subprocess
-from config import CONFIG
+from config/config import CONFIG
 
 # Configure logging
 logging.basicConfig(level=logging.ERROR, format="%(asctime)s - %(levelname)s - %(message)s")
