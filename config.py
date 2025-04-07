@@ -3,13 +3,6 @@ import os
 CONFIG = {
     "databases": [
         {
-            "type": "mysql",
-            "host": "mysql",
-            "username": "root",
-            "password": os.getenv("MYSQL_ROOT_PASSWORD"),
-            "database": os.getenv("MYSQL_DATABASE"),
-        },
-        {
             "type": "mariadb",
             "host": "mariadb",
             "username": "root",
